@@ -11,7 +11,7 @@ require('dotenv').config({path : './config/config.env'})
 const winston = require("winston"); // this packages for logging the requests
 const expressWinston = require("express-winston");
 const responseTime = require("response-time"); //this package for use the response time
-const rateLimit = require("express-rate-limit") //this package for limiting the all requests rate that come to server
+// const rateLimit = require("express-rate-limit") //this package for limiting the all requests rate that come to server
 const cors = require('cors') // this package for securing the requests
 const helmet = require('helmet') // this package for securing the requests
 const xss = require('xss-clean') // this package for preventing XSS attacks by sanitizing user input
