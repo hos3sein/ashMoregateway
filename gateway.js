@@ -95,7 +95,7 @@ app.use(
 
 
 // making instance of proxy module 
-const rooter = new routes()
+// const rooter = new routes()
 
 
 
