@@ -20,6 +20,7 @@ const routes =  require('./proxies') // all proxies define in this module
 const { createLogger, format, transports } = require('winston');
 // const router = require('./registerAddress/router');
 const { combine, timestamp, label, prettyPrint } = format;
+const mongoose = require('mongoose')
 const app = express();
 
 
@@ -64,6 +65,18 @@ app.use(xss())
 app.use(hpp())
 
 
+
+
+let option = {
+      db : mongoose.connection.useDb('loggerDatabase'),
+      options : {useUnifiedTopology : true},
+      collection : 'logs',
+      capped : false,
+      expireAfterSeconds : 2592000,
+      leaveConnectionOpen : false,
+      storeHost : false,
+      metaKey : 'additionalInfo'
+}
 
 
 // set logger
@@ -112,7 +125,6 @@ app.use(
 
 
 
-
 // making instance of proxy module 
 // const rooter = new routes()
 
@@ -127,7 +139,7 @@ app.use('/test' , (req , res , next)=>{
 
 // // routing to microservices 
 app.use("/auth" , createProxyMiddleware({                
-              target:  'http://localhost:7002',
+              target:  process.env.SERVICE_AUTHENTICATION,
               changeOrigin: true,
               pathRewrite: {
                 [`^/`]: "",
@@ -138,7 +150,7 @@ app.use("/auth" , createProxyMiddleware({
 
 
 app.use("/approve" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_APPROVE,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -149,7 +161,7 @@ app.use("/approve" , createProxyMiddleware({
 
 
 app.use("/favorit" ,createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_FAVORITE,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -160,7 +172,7 @@ app.use("/favorit" ,createProxyMiddleware({
 
 
 app.use("/commerce" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_ECOMMERCE,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -171,7 +183,7 @@ app.use("/commerce" , createProxyMiddleware({
 
 
 app.use("/content" ,createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_CONTENT,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -182,7 +194,7 @@ app.use("/content" ,createProxyMiddleware({
 
 
 app.use("/linemaker" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_LINEMAKER,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -193,7 +205,7 @@ app.use("/linemaker" , createProxyMiddleware({
 
 
 app.use("/notif" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_NOTIFICATION,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -204,7 +216,7 @@ app.use("/notif" , createProxyMiddleware({
 
 
 app.use("/payment" ,createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_PAYMNET,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -215,7 +227,7 @@ app.use("/payment" ,createProxyMiddleware({
 
 
 app.use("/refresh" ,createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_REFRESH,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -226,7 +238,7 @@ app.use("/refresh" ,createProxyMiddleware({
 
 
 app.use("/transport" ,createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_TRANSPORT,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -237,7 +249,7 @@ app.use("/transport" ,createProxyMiddleware({
 
 
 app.use("/truck" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+  target:  process.env.SERVICE_TRUCK,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
@@ -247,8 +259,19 @@ app.use("/truck" , createProxyMiddleware({
 
 
 
-app.use("/truck" , createProxyMiddleware({              
-  target:  'http://localhost:7002',
+app.use("/setting" , createProxyMiddleware({              
+  target:  process.env.SERVICE_SETTING,
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));      
+
+
+
+app.use("/report" , createProxyMiddleware({              
+  target:  process.env.SERVICE_REPORT,
   changeOrigin: true,
   pathRewrite: {
     [`^/`]: "",
