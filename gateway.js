@@ -11,7 +11,7 @@ require('dotenv').config({path : './config/config.env'})
 const winston = require("winston"); // this packages for logging the requests
 const expressWinston = require("express-winston");
 const responseTime = require("response-time"); //this package for use the response time
-// const rateLimit = require("express-rate-limit") //this package for limiting the all requests rate that come to server
+const rateLimit = require("express-rate-limit") //this package for limiting the all requests rate that come to server
 const cors = require('cors') // this package for securing the requests
 const helmet = require('helmet') // this package for securing the requests
 const xss = require('xss-clean') // this package for preventing XSS attacks by sanitizing user input
@@ -21,6 +21,25 @@ const { createLogger, format, transports } = require('winston');
 // const router = require('./registerAddress/router');
 const { combine, timestamp, label, prettyPrint } = format;
 const app = express();
+
+
+// all dependencies that we need
+const {
+  createProxyMiddleware,
+  debugProxyErrorsPlugin, // subscribe to proxy errors to prevent server from crashing
+  loggerPlugin, // log proxy events to a logger (ie. console)
+  errorResponsePlugin, // return 5xx response on proxy error
+  proxyEventsPlugin, // implements the "on:" option
+  fixRequestBody
+} = require('http-proxy-middleware');
+// const { getData } = require('./registerAddress/caching');
+// const { getAddress } = require('./registerAddress/reqToRegistration');
+
+
+
+// required plugins for proxy middleware
+const plugins = [debugProxyErrorsPlugin, loggerPlugin, errorResponsePlugin, proxyEventsPlugin]
+
 
 
 
@@ -100,27 +119,139 @@ app.use(
 
 
 // geting Address from service registrator
-// app.use('/addresses' , router)                                                  // update address by service Registrator
+// app.use('/addresses' , router)                                                
 
 app.use('/test' , (req , res , next)=>{
   res.send('the gateway is running successfully.....')
 })
 
 // // routing to microservices 
-// app.use("/api/getUsers" , rooter.proxy(process.env.USER_G_SERVICE));        // routing the req to get user service
+app.use("/auth" , createProxyMiddleware({                
+              target:  'http://localhost:7002',
+              changeOrigin: true,
+              pathRewrite: {
+                [`^/`]: "",
+              },
+              plugins : plugins
+            }));       
 
-// app.use("/api/setUsers" , rooter.proxy(process.env.USER_S_SERVICE));              // routing the req to set user service
 
-// app.use("/api/getContent" , rooter.proxy(process.env.CONTENT_G_SERVICE) );   // routing the req to get content service
 
-// app.use("/api/setContent" , rooter.proxy(process.env.CONTENT_S_SERVICE) );   // routing the req to set content service
+app.use("/approve" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));              
 
-// app.use("/api/setWallet" , rooter.proxy(process.env.WALLET_S_SERVICE) );   // routing the req to set content service
 
-// app.use("/api/getSignal" , rooter.proxy(process.env.SIGNAL_G_SERVICE) );     // routing the req to get signal service
 
-// app.use("/api/setSignal" , rooter.proxy(process.env.SIGNAL_S_SERVICE) );     // routing the req to set signal service
+app.use("/favorit" ,createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));  
 
-// app.use("/api/getAdmin" , rooter.proxy(process.env.ADMIN_G_SERVICE) );       // routing the req to get admin service
 
-// app.use("/api/setAdmin" , rooter.proxy(process.env.ADMIN_S_SERVICE) );       // routing the req to set admin service
+
+app.use("/commerce" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));   
+
+
+
+app.use("/content" ,createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));   
+
+
+
+app.use("/linemaker" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));     
+
+
+
+app.use("/notif" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));    
+
+
+
+app.use("/payment" ,createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));      
+
+
+
+app.use("/refresh" ,createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));       
+
+
+
+app.use("/transport" ,createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));       
+
+
+
+app.use("/truck" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));       
+
+
+
+app.use("/truck" , createProxyMiddleware({              
+  target:  'http://localhost:7002',
+  changeOrigin: true,
+  pathRewrite: {
+    [`^/`]: "",
+  },
+  plugins : plugins
+}));      
