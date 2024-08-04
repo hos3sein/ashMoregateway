@@ -44,6 +44,12 @@ const plugins = [debugProxyErrorsPlugin, loggerPlugin, errorResponsePlugin, prox
 
 
 
+//ejs configuration
+app.set('view engine' , 'ejs')
+app.set('views' , __dirname+'/views')
+app.use(express.static('public'))
+
+
 // running app on port
 const port = process.env.PORT || 8000;
 
@@ -133,8 +139,8 @@ app.use(
 // geting Address from service registrator
 // app.use('/addresses' , router)                                                
 
-app.use('/test' , (req , res , next)=>{
-  res.send('the gateway is running successfully.....')
+app.use('/' , (req , res , next)=>{
+  res.render('index')
 })
 
 // // routing to microservices 

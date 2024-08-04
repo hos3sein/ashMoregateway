@@ -1,0 +1,2086 @@
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'warn',
+  message: 'GET / 404 5ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:34:54'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 4
+  },
+  level: 'error',
+  message: 'GET / 500 4ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:35:02'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'GET / 200 11ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:12'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:12'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:13'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'GET / 304 11ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:42'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:42'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:42'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:36:44'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 200 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:18'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 200 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:18'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-eMNmEc27Euv3GkeYUNAPQqxVzaQ"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:19'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:20'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:20'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:21'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 304 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:30'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:30'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:31'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET / 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:32'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:32'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:32'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:47'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:47'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:47'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET / 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:49'
+}
+{
+  meta: {
+    req: {
+      url: '/assets/logo.png',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/assets/logo.png',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /assets/logo.png 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:49'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:37:49'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'GET / 200 9ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:29'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"754-2lhOtVCHhKz9WoNpWu1qVSlZ2yE"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:30'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET / 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:40'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:41'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:42'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:43'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:44'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:44'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:47'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:48'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET / 304 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:49'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 304 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:49'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'GET / 200 7ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:58'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"74a-mu9o1KAQo6V84gS6fn/OLoqLiIM"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:38:58'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-Pa0/cVqPlceo/1VvO0sCgkKhrt0"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 200 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:39:48'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"753-Pa0/cVqPlceo/1VvO0sCgkKhrt0"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:39:49'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"756-w8xrhMgsAyYbJQZC4cAkHT0GnKA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 200 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:40:12'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"756-w8xrhMgsAyYbJQZC4cAkHT0GnKA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:40:12'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"756-S1dU9iGlkjHXwmQzwt+mqs9CuT0"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 200 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:40:50'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"756-S1dU9iGlkjHXwmQzwt+mqs9CuT0"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:40:50'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"76b-sMOL2ounjpAAQ5u1JNHXMni6jio"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'GET / 200 9ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:41:17'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"76b-sMOL2ounjpAAQ5u1JNHXMni6jio"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:41:17'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"78c-te/TD341SrAN6N80/qEyu7pmb0w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'GET / 200 10ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:41:50'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"78c-te/TD341SrAN6N80/qEyu7pmb0w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:41:51'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"7b5-wIgOkacfF2bhgFW8XJVAAAd90u8"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'GET / 200 9ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:42:03'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"7b5-wIgOkacfF2bhgFW8XJVAAAd90u8"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 0ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:42:03'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"7a9-gTdh3QJ0UXiLij7c+C7XULaSINw"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'GET / 200 11ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:42:15'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:9000',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9,fa;q=0.8',
+        cookie: 'comentid=projects.css; ids=projects.css; id=657a9dd18d0370d9d2efb3f6; csrftoken=f7nKJuUIiFhDdEvJYEwLKwrB46a528ds; gmail=kianlucifer0098%40gmail.com; name=majid; verifyNumber=%20hhhads%3Blkf',
+        'if-none-match': 'W/"7a9-gTdh3QJ0UXiLij7c+C7XULaSINw"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'GET /favicon.ico 200 1ms',
+  label: 'right meow!',
+  timestamp: '2024-08-04 11:42:16'
+}
